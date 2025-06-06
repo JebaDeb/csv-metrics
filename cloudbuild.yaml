@@ -36,3 +36,5 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/csv-metrics-service'
+options:
+  logging: CLOUD_LOGGING_ONLY
