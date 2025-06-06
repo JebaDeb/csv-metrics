@@ -27,7 +27,7 @@ steps:
       - '--image'
       - 'gcr.io/$PROJECT_ID/csv-metrics-service'
       - '--region'
-      - 'asia-south1'  # Change if using a different region
+      - 'us-central1'  # Change if using a different region
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
