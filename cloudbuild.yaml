@@ -18,7 +18,7 @@ steps:
       - 'managed'
       - '--allow-unauthenticated'
       - '--service-account'
-      - 'cloud-build-deployer@YOUR_PROJECT_ID.iam.gserviceaccount.com'
-      -
+      - 'cloud-build-deployer@YOUR_PROJECT_ID.iam.gserviceaccount.com'  # Replace with your real SA
+
 options:
   logging: CLOUD_LOGGING_ONLY
